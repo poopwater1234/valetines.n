@@ -5,11 +5,11 @@ import React, { useState } from "https://esm.sh/react@18.2.0";
 const NO_PHRASES = [
   "No 💔",
   "Pretty please? 🥺",
-  "But we'd be so cute together! 💕",
-  "One more chance, pookie?",
+  "you hate me",
+  "One more chance?",
   "Don't break my heart :(",
   "What about a maybe?",
-  "Please don't do this to me, I'm fragile",
+  "Please don't do this to me, I really love you",
 ];
 
 function App() {
@@ -44,7 +44,7 @@ function App() {
         ? (
           <>
             <img src={firstImg} />
-            <h1>Will you be my Valentine? 💘</h1>
+            <h1>baby rosey cheeked tiana will you be my valetines? </h1>
             <div>
               <button
                 onClick={handleYes}
@@ -89,7 +89,7 @@ function App() {
                 fontWeight: "bold",
               }}
             >
-              Yay!!! 💖🎉
+              I LOVE YOU THE MOSTEST MY LITTLE ROSEY RED CHEEKED BABY CHIPMUNK
             </div>
           </>
         )}
